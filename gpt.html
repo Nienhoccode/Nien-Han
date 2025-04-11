@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kỉ yếu lớp 12A2</title>
+    <link rel="stylesheet" href="style.css"> <!-- Liên kết đến file CSS để tạo kiểu cho trang -->
+    <style>
+        /* Đặt CSS cơ bản cho trang web */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        section {
+            padding: 20px;
+            margin: 15px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Thêm kiểu cho bảng, danh sách, hình ảnh trong nội dung */
+        table {
+            width: 100%;
+            margin: 20px 0;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .image-gallery img {
+            width: 200px;
+            height: 150px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Tiêu đề -->
+    <header>
+        <h1>Kỉ yếu lớp 12A2</h1>
+    </header>
+
+    <!-- Thanh điều hướng -->
+    <nav>
+        <a href="index.html">Trang chủ</a>
+        <a href="hoatdong.html">Hoạt động</a>
+        <a href="thanhvien.html">Thành viên</a>
+        <a href="thongtin.html">Thông tin lớp</a>
+    </nav>
+
+    <!-- Nội dung chính -->
+    <section>
+        <h2>Thông tin lớp 12A2</h2>
+        <p>Chào mừng bạn đến với trang kỉ yếu của lớp 12A2. Dưới đây là những thông tin về lớp, các hoạt động, và các thành viên.</p>
+
+        <!-- Thông tin về lớp -->
+        <div class="container">
+            <div>
+                <h3>Giáo viên chủ nhiệm</h3>
+                <p>GVCN: Nguyễn Thị Thanh Tuyền</p>
+            </div>
+            <div>
+                <h3>Thông tin lớp</h3>
+                <ul>
+                    <li>Gồm 44 thành viên</li>
+                    <li>30 nam, 14 nữ</li>
+                    <li>Lớp trưởng: Nguyễn Công Anh Vũ</li>
+                    <li>Lớp phó: Thái Thị Ánh Tuyết</li>
+                    <li>Niên khóa: 2022-2025</li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- Thư viện hình ảnh -->
+        <div class="image-gallery">
+            <h3>Hình ảnh hoạt động</h3>
+            <img src="images/Anh1.jpg" alt="Ảnh hoạt động 1">
+            <img src="images/Anh2.jpg" alt="Ảnh hoạt động 2">
+            <img src="images/Anh3.jpg" alt="Ảnh hoạt động 3">
+        </div>
+
+        <!-- Bảng thông tin -->
+        <table>
+            <tr>
+                <th>STT</th>
+                <th>Tên thành viên</th>
+                <th>Chức vụ</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Nguyễn Công Anh Vũ</td>
+                <td>Lớp trưởng</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Thái Thị Ánh Tuyết</td>
+                <td>Lớp phó</td>
+            </tr>
+            <!-- Thêm các thành viên khác ở đây -->
+        </table>
+    </section>
+
+    <!-- Chân trang -->
+    <footer>
+        <p>&copy; 2023 Lớp 12A2 - Tất cả các quyền được bảo lưu</p>
+    </footer>
+
+</body>
+</html>
